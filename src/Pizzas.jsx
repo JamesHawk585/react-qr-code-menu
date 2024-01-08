@@ -1,3 +1,5 @@
+import AddToOrderButton from "./AddOrderButton"
+
 const Pizzas = () => {
     return (
       <section id="pizzas">
@@ -26,3 +28,5 @@ const Pizzas = () => {
       </section>
     )
   }
+
+  export default Pizzas

@@ -1,3 +1,5 @@
+import AddToOrderButton from "./AddOrderButton"
+
 const Desserts = () => {
     return (
       <section id="desserts">
@@ -21,3 +23,5 @@ const Desserts = () => {
       </section>
     )
   }
+
+  export default Desserts 

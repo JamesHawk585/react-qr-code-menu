@@ -1,7 +1,9 @@
-const Header = () => (
+import Nav from './Nav'
+
+const Header = ({menuSectionNamesArray}) => (
     <header id="top">
       <h1>QR Code Menu</h1>
-      <Nav />
+      <Nav menuSectionNamesArray={menuSectionNamesArray}/>
     </header>
   )
 

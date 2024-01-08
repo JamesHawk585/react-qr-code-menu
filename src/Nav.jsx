@@ -1,4 +1,4 @@
-const Nav = () => (
+const Nav = ({menuSectionNamesArray}) => (
     <nav>
       <ul>
         {menuSectionNamesArray.map(sectionName => (

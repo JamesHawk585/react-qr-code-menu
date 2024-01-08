@@ -1,3 +1,5 @@
+import AddToOrderButton from "./AddOrderButton"
+
 const Starters = () => {
     return (
       <section id="starters">

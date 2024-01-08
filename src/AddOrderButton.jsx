@@ -4,3 +4,5 @@ const AddToOrderButton = () => (
       <br /><br />
     </>
   )
+
+  export default AddToOrderButton
